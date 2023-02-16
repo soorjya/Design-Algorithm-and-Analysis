@@ -7,12 +7,14 @@ int main()
     char x[20], y[20];
     
     cout<<"Enter sequence x : ";
-    fflush(stdin);
-    gets(x);
+    cin>>x;
+    //fflush(stdin);
+    //gets(x);
     
     cout<<"\nEnter sequence y : ";
-    fflush(stdin);
-    gets(y);
+    cin>>y;
+    //fflush(stdin);
+    //gets(y);
     
     int lx=strlen(x), ly=strlen(y);
     int a[lx+1][ly+1];
